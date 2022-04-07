@@ -110,7 +110,7 @@ while round < 2 and gHouse != ["Targaryen", "Lannister", "Stark", "Tully", "Bara
 
     else:
         print(
-            f"Ah, House {gHouse}, a traveller from {gHouses(gHouse).kingdom} visits.")
+            f"Ah, House {gHouse}, a traveller from {gHouses.get(gHouse[1])} visits.")
         break
 
 else:
